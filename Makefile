@@ -16,5 +16,8 @@ package-install:
 reinstall:
 	pip install --user --force-reinstall dist/*.whl
 
+lint:
+	poetry run flake8 brain_games
 
-.PHONY: install brain-games build publish package-install reinstall
+
+.PHONY: install brain-games build publish package-install reinstall lint
