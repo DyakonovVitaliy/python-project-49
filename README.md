@@ -2,3 +2,5 @@
 [![Actions Status](https://github.com/DyakonovVitaliy/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/DyakonovVitaliy/python-project-49/actions)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/0a1af83ff73b41fdfabb/maintainability)](https://codeclimate.com/github/DyakonovVitaliy/python-project-49/maintainability)
+
+https://asciinema.org/a/sIxJ08US5N0EOWJiXR3Z4csUf
