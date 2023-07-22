@@ -19,5 +19,7 @@ reinstall:
 lint:
 	poetry run flake8 brain_games
 
+brain-even:
+	poetry run brain-even
 
-.PHONY: install brain-games build publish package-install reinstall lint
+.PHONY: install brain-games build publish package-install reinstall lint brain-even
