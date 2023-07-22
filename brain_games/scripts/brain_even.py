@@ -20,7 +20,7 @@ def main():
     the_task = 'Answer "yes" if the number is even, otherwise answer "no".'
     quantity_question = 3
     name = welcome_user()
-    print(f'Hello, {name}')
+    print(f'Hello, {name}!')
     print(the_task)
     for _ in range(quantity_question):
         number = randint(1, 100)
