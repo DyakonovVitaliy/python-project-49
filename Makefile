@@ -22,4 +22,7 @@ lint:
 brain-even:
 	poetry run brain-even
 
-.PHONY: install brain-games build publish package-install reinstall lint brain-even
+brain-calc:
+	poetry run brain-calc	
+
+.PHONY: install brain-games build publish package-install reinstall lint brain-even brain-calc
