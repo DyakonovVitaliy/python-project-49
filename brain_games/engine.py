@@ -1,5 +1,6 @@
 import prompt
 
+
 def greeting():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -16,5 +17,7 @@ def logic(function, the_task):
         if true_result == answer:
             print('Correct!')
         else:
-            return print(f"'{answer}' is wrong answer ;(. Correct answer was '{true_result}'. \nLet's try again, {name}!")
+            return print(f'\'{answer}\' is wrong answer ;(. '
+                         f'Correct answer was \'{true_result}\'.'
+                         f"\nLet's try again, {name}!")
     print(f'Congratulations, {name}!')

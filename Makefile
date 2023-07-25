@@ -31,4 +31,7 @@ brain-gcd:
 brain-progression:
 	poetry run brain-progression
 
-.PHONY: install brain-games build publish package-install reinstall lint brain-even brain-calc brain-gcd brain-progression
+brain-prime:
+	poetry run brain-progression
+
+.PHONY: install brain-games build publish package-install reinstall lint brain-even brain-calc brain-gcd brain-progression brain-prime

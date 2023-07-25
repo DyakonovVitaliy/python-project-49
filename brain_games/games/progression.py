@@ -4,6 +4,7 @@ from random import randint
 
 the_task = 'What number is missing in the progression?'
 
+
 def build_progression():
     quantity_number = 10
     first_border = randint(1, 50)

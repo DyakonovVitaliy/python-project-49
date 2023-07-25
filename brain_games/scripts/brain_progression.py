@@ -2,6 +2,7 @@
 from brain_games.engine import logic
 from brain_games.games.progression import get_progression, the_task
 
+
 def main():
     logic(get_progression, the_task)
 
