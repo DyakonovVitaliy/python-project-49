@@ -19,26 +19,19 @@ python = "^3.11"
 prompt = "^0.4.1"
 ___
 ### Installation
-To install the project you need to use the following commands from Makefile:
+To install the project you need to use the following commands from Makefile:  
 
-__make install__: to install poetry packages. 
-__make build__: to build your packages inside your project. 
-__make publish__: It will let us execute the publish command.
-__make package-install__: installs the built package from our OS, so we can start using simple shell commands.
+__make install__: to install poetry packages.   
+__make build__: to build your packages inside your project.   
+__make publish__: It will let us execute the publish command.  
+__make package-install__: installs the built package from our OS, so we can start using simple shell commands.  
 ___
 ### START GAMES
-Games start by the following commands:
-__brain-calc__: start calc
-__brain-even__: start even
-__brain_gcd__: start gcd
-__brain_prime__: start prime
-__brain_progression__: start progression 
+Games start by the following commands:  
 
-
-
-
-
-
-
-
+__brain-calc__: start calc  
+__brain-even__: start even  
+__brain_gcd__: start gcd  
+__brain_prime__: start prime  
+__brain_progression__: start progression   
 
