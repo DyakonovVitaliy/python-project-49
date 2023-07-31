@@ -2,7 +2,7 @@ import prompt
 from random import randint
 
 
-the_task = 'What number is missing in the progression?'
+TASK = 'What number is missing in the progression?'
 
 
 def build_progression():
@@ -18,11 +18,8 @@ def get_progression():
     list_progression = build_progression()
     iter_hidden_number = randint(0, 9)
     right_answer = str(list_progression[iter_hidden_number])
-    progression = ''
-    for n in list_progression:
-        progression += str(n) + ' '
-    progression = progression.strip()
-    progression = progression.replace(right_answer, '..')
+    list_progression[iter_hidden_number] = '..'
+    progression = " ".join(str(i) for i in list_progression)
     print(f'Question: {progression}')
     answer = prompt.string('Your answer: ')
     return right_answer, answer

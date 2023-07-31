@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Vitaliy"]
+description = "Brain-Games"
+authors = ["DyakonovVitaliy <dyakonovvitaliy37@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"},]
+classifiers = ["Environment :: Console"]
+repository = "https://github.com/DyakonovVitaliy/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.11"

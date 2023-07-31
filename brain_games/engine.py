@@ -1,18 +1,18 @@
 import prompt
 
+QUANTITY_QUESTION = 3
 
-def greeting():
+def greet():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     return name
 
 
-def logic(function, the_task):
-    name = greeting()
-    quantity_question = 3
-    print(the_task)
-    for _ in range(quantity_question):
+def logic(function, task):
+    name = greet()
+    print(task)
+    for _ in range(QUANTITY_QUESTION):
         true_result, answer = function()
         if true_result == answer:
             print('Correct!')

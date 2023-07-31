@@ -2,7 +2,7 @@ import prompt
 from random import randint, choice
 from operator import add, sub, mul
 
-the_task = 'What is the result of the expression?'
+TASK = 'What is the result of the expression?'
 OPERATORS = {'+': add, '-': sub, '*': mul}
 
 

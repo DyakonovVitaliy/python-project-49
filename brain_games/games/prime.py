@@ -3,16 +3,16 @@ from random import randint
 from math import sqrt
 
 
-the_task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_right_answer(number):
     i = 2
     while i <= sqrt(number):
         if number % i == 0:
-            return 'no'
+            return False
         i += 1
-    return 'yes'
+    return True
 
 
 def get_prime():
@@ -20,4 +20,8 @@ def get_prime():
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ')
     right_answer = get_right_answer(number)
+    if right_answer == True:
+        right_answer = 'yes'
+    if right_answer == False:
+        right_answer = 'no'
     return right_answer, answer
