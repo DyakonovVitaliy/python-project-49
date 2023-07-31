@@ -20,8 +20,8 @@ def get_prime():
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ')
     right_answer = get_right_answer(number)
-    if right_answer == True:
+    if right_answer is True:
         right_answer = 'yes'
-    if right_answer == False:
+    if right_answer is False:
         right_answer = 'no'
     return right_answer, answer
