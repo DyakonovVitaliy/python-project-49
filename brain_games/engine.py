@@ -10,11 +10,13 @@ def greet():
     return name
 
 
-def logic(function, task):
+def start_game(function, task):
     name = greet()
     print(task)
     for _ in range(QUANTITY_QUESTION):
-        true_result, answer = function()
+        true_result, question = function()
+        print(question)
+        answer = prompt.string('Your answer: ')
         if true_result == answer:
             print('Correct!')
         else:

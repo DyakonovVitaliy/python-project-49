@@ -20,6 +20,5 @@ def get_progression():
     right_answer = str(list_progression[iter_hidden_number])
     list_progression[iter_hidden_number] = '..'
     progression = " ".join(str(i) for i in list_progression)
-    print(f'Question: {progression}')
-    answer = prompt.string('Your answer: ')
-    return right_answer, answer
+    question = f'Question: {progression}'
+    return right_answer, question

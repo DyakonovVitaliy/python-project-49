@@ -8,15 +8,20 @@ ___
 ___
 ### Description
 The game include five simple math game:
-- [Calc: determine the result of an expression.](https://asciinema.org/a/yXE2WUaX2gtKIoZQ5nVrWtHeQ)
-- [Even: determine if a number is even.](https://asciinema.org/a/oXXvXQcq6e6x64IavDqAY6aOh)
-- [Gcd: determine the gcd of two numbers.](https://asciinema.org/a/TYIRF8d0WbIgSmpQiPrPiat0f)
-- [Prime: determine if a number is prime.](https://asciinema.org/a/IWxUvp1ArlJN23Q4rdD0gnqOz)
-- [Progression: determine the missing number.](https://asciinema.org/a/JiJ3RI9fj4hDmxLQKjnDeIK5Z)
+- Calc: determine the result of an expression.
+#### [![asciicast](https://asciinema.org/a/yXE2WUaX2gtKIoZQ5nVrWtHeQ.svg)](https://asciinema.org/a/yXE2WUaX2gtKIoZQ5nVrWtHeQ)
+- Even: determine if a number is even.
+#### [![asciicast](https://asciinema.org/a/oXXvXQcq6e6x64IavDqAY6aOh.svg)](https://asciinema.org/a/oXXvXQcq6e6x64IavDqAY6aOh)
+- Gcd: determine the gcd of two numbers.
+#### [![asciicast](https://asciinema.org/a/TYIRF8d0WbIgSmpQiPrPiat0f.svg)](https://asciinema.org/a/TYIRF8d0WbIgSmpQiPrPiat0f)
+- Prime: determine if a number is prime.
+#### [![asciicast](https://asciinema.org/a/IWxUvp1ArlJN23Q4rdD0gnqOz.svg)](https://asciinema.org/a/IWxUvp1ArlJN23Q4rdD0gnqOz)
+- Progression: determine the missing number.
+#### [![asciicast](https://asciinema.org/a/JiJ3RI9fj4hDmxLQKjnDeIK5Z.svg)](https://asciinema.org/a/JiJ3RI9fj4hDmxLQKjnDeIK5Z)
 ___
 ### Installation requirements
-python = "^3.11"
-prompt = "^0.4.1"
+- python = "^3.11"
+- poetry = "^1.4.0"
 ___
 ### Installation
 To install the project you need to use the following commands from Makefile:  

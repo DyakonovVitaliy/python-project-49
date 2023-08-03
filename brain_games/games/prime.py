@@ -6,7 +6,7 @@ from math import sqrt
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_right_answer(number):
+def is_simple_number(number):
     i = 2
     while i <= sqrt(number):
         if number % i == 0:
@@ -17,11 +17,10 @@ def get_right_answer(number):
 
 def get_prime():
     number = randint(2, 100)
-    print(f'Question: {number}')
-    answer = prompt.string('Your answer: ')
-    right_answer = get_right_answer(number)
-    if right_answer is True:
+    question = f'Question: {number}'
+    right_answer_boolean = is_simple_number(number)
+    if right_answer_boolean is True:
         right_answer = 'yes'
-    if right_answer is False:
+    if right_answer_boolean is False:
         right_answer = 'no'
-    return right_answer, answer
+    return right_answer, question
