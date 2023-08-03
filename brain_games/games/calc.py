@@ -19,7 +19,6 @@ def get_calc():
     second_operand = randint(1, 50)
     OPERATOR = str(choice(['+', '-', '*']))
     question = f'Question: {first_operand} {OPERATOR} {second_operand}'
-    
     right_answer = str(get_right_answer(first_operand,
                                         OPERATOR, second_operand))
     return right_answer, question
