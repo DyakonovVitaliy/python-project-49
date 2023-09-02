@@ -7,8 +7,6 @@ TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_simple_number(number):
     i = 2
-    if number == 2:
-        return True
     while i <= sqrt(number):
         if number % i == 0:
             return False
@@ -22,6 +20,6 @@ def get_prime():
     right_answer_boolean = is_simple_number(number)
     if right_answer_boolean is True:
         right_answer = 'yes'
-    if right_answer_boolean is False:
+    else:
         right_answer = 'no'
     return right_answer, question
