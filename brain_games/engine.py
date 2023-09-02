@@ -11,7 +11,7 @@ def invite_and_greet():
 
 
 def start_game(function, task):
-    name = greet()
+    name = invite_and_greet()
     print(task)
     for _ in range(QUANTITY_QUESTION):
         true_result, question = function()
