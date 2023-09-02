@@ -3,7 +3,7 @@ import prompt
 QUANTITY_QUESTION = 3
 
 
-def greet():
+def greet_and_invite():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -11,7 +11,7 @@ def greet():
 
 
 def start_game(function, task):
-    name = greet()
+    name = greet_and_invite()
     print(task)
     for _ in range(QUANTITY_QUESTION):
         true_result, question = function()
