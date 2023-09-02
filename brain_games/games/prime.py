@@ -20,6 +20,6 @@ def get_prime():
     right_answer_boolean = is_simple_number(number)
     if right_answer_boolean is True:
         right_answer = 'yes'
-    else:
+    if right_answer_boolean is False:
         right_answer = 'no'
     return right_answer, question
