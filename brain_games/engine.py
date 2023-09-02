@@ -3,7 +3,7 @@ import prompt
 QUANTITY_QUESTION = 3
 
 
-def greet():
+def invite_and_greet():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
