@@ -17,7 +17,7 @@ def is_simple_number(number):
 
 
 def get_prime():
-    number = randint(2, 11)
+    number = randint(0, 100)
     question = f'Question: {number}'
     right_answer_boolean = is_simple_number(number)
     if right_answer_boolean is True:
