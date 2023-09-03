@@ -6,6 +6,8 @@ TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_simple_number(number):
+    if number == 0 or number == 1:
+        return False
     i = 2
     while i <= sqrt(number):
         if number % i == 0:
